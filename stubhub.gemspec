@@ -16,7 +16,12 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  gem.add_development_dependency 'httparty'
+  
+  gem.add_dependency 'httparty',  '~> 0.11.0'
+  gem.add_dependency 'http',      '~> 0.4.0'
+  gem.add_dependency 'map',       '~> 6.5.1'
+  gem.add_dependency 'activesupport'
+
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'vcr'
   gem.add_development_dependency 'webmock'

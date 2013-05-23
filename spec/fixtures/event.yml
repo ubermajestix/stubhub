@@ -46,84 +46,6 @@ http_interactions:
   recorded_at: Sat, 16 Mar 2013 20:52:54 GMT
 - request:
     method: get
-    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:event%0D%0A%2B%20event_id:4187540%0D%0A&rows=10&start=0&wt=json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - Apache
-      Content-Type:
-      - application/json;charset=UTF-8
-      Expires:
-      - Mon, 01 Apr 2013 23:34:37 GMT
-      Cache-Control:
-      - max-age=0, no-cache, no-store
-      Pragma:
-      - no-cache
-      Date:
-      - Mon, 01 Apr 2013 23:34:37 GMT
-      Content-Length:
-      - '5458'
-      Connection:
-      - Keep-Alive
-      Set-Cookie:
-      - TLTHID=B794F4C09B24109B4C06A908835D6A86; Path=/; Domain=.stubhub.com
-      - TLTSID=B794F4C09B24109B4C06A908835D6A86; Path=/; Domain=.stubhub.com
-      - dc=origin1;expires=Tue, 02-Apr-2013 00:04:37 GMT;path=/;domain=www.stubhub.com;
-    body:
-      encoding: US-ASCII
-      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"10","start":"0","q":"+
-        stubhubDocumentType:event\r\n+ event_id:4187540\r\n +allowedViewingDomain:stubhub.com"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4187540","stubhubDocumentType":"event","event_id":"4187540","act_primary":"2013
-        AMT Christmas Show","id":"4187540","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
-        1 63910 726864","ancestorGeoIds":"0 196976 521 522 63483","channel":"Concert
-        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Lancaster","date_confirm":"2012-12-06T17:55:16Z","date_inhand":"2012-12-07T19:30:16Z","date_last_modified":"2013-03-06T17:36:11Z","date_onsale":"2012-12-07T17:55:17Z","description":"2013
-        AMT Christmas Show: The First Noel Tickets","desc_sort":"2013 AMT Christmas
-        Show: The First Noel Tickets","eventDate_facet_str":"December, 2013|2013-12","eventGenreParentDescription_facet_str":"AMT
-        Christmas Show Tickets|726864","eventGeoDescription":"American Music Theatre
-        - Lancaster","eventGeoDescription_text":"American Music Theatre - Lancaster","eventLocation_facet_str":"Pennsylvania,
-        Philadelphia|522","event_date":"2013-12-07T00:30:00Z","event_date_local":"2013-12-06","event_date_time_local":"2013-12-06T19:30:00Z","event_time_local":"19:30:00","event_type":"4187540,
-        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-alternative-music-tickets","genreUrlPath":"amt-christmas-show-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
-        A - C","genre_parent":"726864","genre_parent_name":"AMT Christmas Show Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"american-music-theater-lancaster-tickets","geography_parent":"63483","hide_event_date":"0","image_url":"stubhub_73510_AmericanMusicTheater_Concert.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"2013
-        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
-        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
-        ticket, tickets","last_chance":"2013-12-07T00:30:00Z","maxPrice":78.0,"maxSeatsTogether":6.0,"meta_description":"2013
-        AMT Christmas Show American Music Theatre - Lancaster Tickets - Buy and sell
-        2013 AMT Christmas Show Lancaster Tickets for December 6 at American Music
-        Theatre - Lancaster in Lancaster, PA on StubHub!","minPrice":78.0,"minSeatsTogether":6.0,"name_primary":"American
-        Music Theatre - Lancaster","name_secondary":"2013 AMT Christmas Show","nickname":"family","seo_description":"2013
-        AMT Christmas Show at American Music Theatre - Lancaster","seo_title":"2013
-        AMT Christmas Show American Music Theatre - Lancaster Lancaster Tickets -
-        2013-12-6","spark_event_flag":"0","state":"PA","threeLevelsUpIds":"726864
-        63910 1","title":"2013 AMT Christmas Show Lancaster Tickets - 2013 AMT Christmas
-        Show 12/06/2013 American Music Theatre - Lancaster Tickets on StubHub!","totalPostings":1,"totalTickets":6.0,"type_id":"0","urlpath":"2013-amt-christmas-show-lancaster-american-music-theatre---lancaster-6-12-2013-4187540","urlpathid":"2230804","venue_config_id":"73510","venue_name":"American
-        Music Theatre - Lancaster","venue_name_text":"American Music Theatre - Lancaster","venueconfigurationid":"73510","zip":"17605","artistPrimaryStyle":"178738","is_event_package":"0","latitude":40.02485,"longitude":-76.200516,"lat_lon":"40.0248492,-76.200516","date_added":"2012-12-07T17:55:17Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"Theater","updateInitiatedTimestamp":"2013-04-01T12:43:00.522Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"2013
-        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
-        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
-        ticket, tickets","event_type_en_US":"4187540, ","seo_title_en_US":"2013 AMT
-        Christmas Show American Music Theatre - Lancaster Lancaster Tickets - 2013-12-6","seo_description_en_US":"2013
-        AMT Christmas Show at American Music Theatre - Lancaster","name_primary_en_US":"American
-        Music Theatre - Lancaster","name_secondary_en_US":"2013 AMT Christmas Show","act_primary_en_US":"2013
-        AMT Christmas Show","title_en_US":"2013 AMT Christmas Show Lancaster Tickets
-        - 2013 AMT Christmas Show 12/06/2013 American Music Theatre - Lancaster Tickets
-        on StubHub!","meta_description_en_US":"2013 AMT Christmas Show American Music
-        Theatre - Lancaster Tickets - Buy and sell 2013 AMT Christmas Show Lancaster
-        Tickets for December 6 at American Music Theatre - Lancaster in Lancaster,
-        PA on StubHub!","event_description_en_US":"2013 AMT Christmas Show: The First
-        Noel Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"american-music-theater-lancaster","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":78.0,"dateLastIndexed":"2013-04-01T12:44:48.606Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
-        Geography","United States","Pennsylvania","Philadelphia","American Music Theatre
-        - Lancaster"],"artistSecondaryStyle":["195743"],"ancestorGenreDescriptions":["All
-        tickets","Concert tickets","Artists A - C","AMT Christmas Show Tickets"]}]}}'
-    http_version: 
-  recorded_at: Mon, 01 Apr 2013 23:34:37 GMT
-- request:
-    method: get
     uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:event%0D%0A%2B%20description:above%20and%20beyond%0D%0A&rows=10&start=0&wt=json
     body:
       encoding: US-ASCII
@@ -139,45 +61,46 @@ http_interactions:
       Content-Type:
       - application/json;charset=UTF-8
       Expires:
-      - Mon, 01 Apr 2013 23:34:37 GMT
+      - Wed, 22 May 2013 22:39:01 GMT
       Cache-Control:
       - max-age=0, no-cache, no-store
       Pragma:
       - no-cache
       Date:
-      - Mon, 01 Apr 2013 23:34:37 GMT
+      - Wed, 22 May 2013 22:39:01 GMT
       Content-Length:
-      - '40484'
+      - '29346'
       Connection:
-      - Keep-Alive
+      - keep-alive
       Set-Cookie:
-      - TLTHID=B7ACDF5E9B24109B5AE1EE2010F877F7; Path=/; Domain=.stubhub.com
-      - TLTSID=B7ACDF5E9B24109B5AE1EE2010F877F7; Path=/; Domain=.stubhub.com
-      - dc=origin1;expires=Tue, 02-Apr-2013 00:04:37 GMT;path=/;domain=www.stubhub.com;
+      - TLTHID=65E4F448C33010C31066CD4A42C037B5; Path=/; Domain=.stubhub.com
+      - TLTSID=65E4F448C33010C31066CD4A42C037B5; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Wed, 22-May-2013 23:09:00 GMT;path=/;domain=www.stubhub.com;
     body:
       encoding: US-ASCII
-      string: ! '{"responseHeader":{"status":0,"QTime":1,"params":{"wt":"json","rows":"10","start":"0","q":"+
-        stubhubDocumentType:event\r\n+ description:above and beyond\r\n +allowedViewingDomain:stubhub.com"}},"response":{"numFound":7,"start":0,"docs":[{"stubhubDocumentId":"event-4259348","stubhubDocumentType":"event","event_id":"4259348","act_primary":"Above
-        and Beyond","id":"4259348","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+      string: ! '{"responseHeader":{"status":0,"QTime":2,"params":{"wt":"json","rows":"10","start":"0","q":"+
+        stubhubDocumentType:event\r\n+ description:above and beyond\r\n +allowedViewingDomain:stubhub.com"}},"response":{"numFound":6,"start":0,"docs":[{"stubhubDocumentId":"event-4259348","stubhubDocumentType":"event","event_id":"4259348","act_primary":"Above
+        and Beyond","id":"4259348","active":"0","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"0","ancestorGenreIds":"0
         1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
         tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:16:37Z","date_inhand":"2013-03-19T17:16:37Z","date_last_modified":"2013-03-19T17:16:38Z","date_onsale":"2013-03-19T17:16:37Z","description":"Above
+        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:16:37Z","date_inhand":"2013-03-19T17:16:37Z","date_last_modified":"2013-05-22T00:32:27Z","date_onsale":"2013-03-19T17:16:37Z","description":"Above
         and Beyond Tickets (18+ Event)","desc_sort":"Above and Beyond Tickets (18+
         Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
         and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
-        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-22T00:00:00Z","event_date_local":"2013-05-21","event_date_time_local":"2013-05-21T20:00:00Z","event_time_local":"20:00:00","event_type":"4259348,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-22T00:00:00Z","event_date_local":"2013-05-21","event_date_time_local":"2013-05-21T20:00:00Z","event_time_local":"20:00:00","event_type":"4259348,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,,Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
         A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
         and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
-        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-22T00:00:00Z","maxPrice":200.0,"maxSeatsTogether":8.0,"meta_description":"Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-22T00:00:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Above
         and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
-        for May 21 at Royale Boston in Boston, MA on StubHub!","minPrice":49.5,"minSeatsTogether":1.0,"name_primary":"Royale
+        for May 21 at Royale Boston in Boston, MA on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Royale
         Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
         and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
         Tickets - 2013-5-21","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
         63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/21/2013
-        Royale Boston Tickets on StubHub!","totalPostings":16,"totalTickets":63.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-21-5-2013-4259348","urlpathid":"2306346","venue_config_id":"463220","venue_name":"Royale
-        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:16:37Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
-        Admission","updateInitiatedTimestamp":"2013-04-01T17:10:57.785Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        Royale Boston Tickets on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-21-5-2013-4259348","urlpathid":"2306346","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:16:37Z","event_status_id":5,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-05-22T20:00:39.633Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
         and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
         and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4259348,","seo_title_en_US":"Above
         and Beyond Royale Boston Boston Tickets - 2013-5-21","seo_description_en_US":"Above
@@ -187,31 +110,65 @@ http_interactions:
         on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
         - Buy and sell Above and Beyond Boston Tickets for May 21 at Royale Boston
         in Boston, MA on StubHub!","event_description_en_US":"Above and Beyond Tickets
-        (18+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":49.5,"dateLastIndexed":"2013-04-01T17:10:58.214Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        (18+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":0.0,"dateLastIndexed":"2013-05-22T20:01:57.021Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4267610","stubhubDocumentType":"event","event_id":"4267610","act_primary":"Above
+        and Beyond","id":"4267610","active":"0","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"0","ancestorGenreIds":"0
+        1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Boston","date_confirm":"2013-04-11T00:25:15Z","date_inhand":"2013-04-12T00:25:15Z","date_last_modified":"2013-05-21T01:01:57Z","date_onsale":"2013-04-12T00:25:15Z","description":"Above
+        And Beyond Tickets (18+ Event)","desc_sort":"Above And Beyond Tickets (18+
+        Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
+        and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-21T00:00:00Z","event_date_local":"2013-05-20","event_date_time_local":"2013-05-20T20:00:00Z","event_time_local":"20:00:00","event_type":"4267610,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,,Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-21T00:00:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Above
+        and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
+        for May 20 at Royale Boston in Boston, MA on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Royale
+        Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
+        and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
+        Tickets - 2013-5-20","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
+        63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/20/2013
+        Royale Boston Tickets on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-20-5-2013-4267610","urlpathid":"2315483","venue_config_id":"463220","venue_name":"Royale
+        Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-04-12T00:25:15Z","event_status_id":5,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-05-22T20:00:39.634Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
+        and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4267610,","seo_title_en_US":"Above
+        and Beyond Royale Boston Boston Tickets - 2013-5-20","seo_description_en_US":"Above
+        and Beyond at Royale Boston","name_primary_en_US":"Royale Boston","name_secondary_en_US":"Above
+        and Beyond","act_primary_en_US":"Above and Beyond","title_en_US":"Above and
+        Beyond Boston Tickets - Above and Beyond 05/20/2013 Royale Boston Tickets
+        on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
+        - Buy and sell Above and Beyond Boston Tickets for May 20 at Royale Boston
+        in Boston, MA on StubHub!","event_description_en_US":"Above And Beyond Tickets
+        (18+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":0.0,"dateLastIndexed":"2013-05-22T20:02:00.898Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
         Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
         tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4262936","stubhubDocumentType":"event","event_id":"4262936","act_primary":"Above
         And Beyond","id":"4262936","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
         1 63910 494083","ancestorGeoIds":"0 196976 688 689 212858","channel":"Concert
         tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Las Vegas","date_confirm":"2013-03-27T20:54:55Z","date_inhand":"2013-03-28T20:54:55Z","date_last_modified":"2013-03-28T20:54:56Z","date_onsale":"2013-03-28T20:54:55Z","description":"Above
+        tickets|1","city":"Las Vegas","date_confirm":"2013-03-27T20:54:55Z","date_inhand":"2013-03-28T20:54:55Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-28T20:54:55Z","description":"Above
         And Beyond Tickets (21+ Event)","desc_sort":"Above And Beyond Tickets (21+
         Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
         and Beyond Tickets|494083","eventGeoDescription":"Surrender Nightclub at Encore","eventGeoDescription_text":"Surrender
-        Nightclub at Encore","eventLocation_facet_str":"Nevada, Las Vegas|689","event_date":"2013-05-27T05:30:00Z","event_date_local":"2013-05-26","event_date_time_local":"2013-05-26T22:30:00Z","event_time_local":"22:30:00","event_type":"4262936,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        Nightclub at Encore","eventLocation_facet_str":"Nevada, Las Vegas|689","event_date":"2013-05-27T05:30:00Z","event_date_local":"2013-05-26","event_date_time_local":"2013-05-26T22:30:00Z","event_time_local":"22:30:00","event_type":"4262936,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,,Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
         A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"surrender-nightclub-at-encore-tickets","geography_parent":"212858","hide_event_date":"0","image_url":"stubhub_594992_NightclubMaleFemaleGA_TextOnly.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
         And Beyond, , Above And Beyond Surrender Nightclub at Encore, Above And Beyond
-        Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-27T05:30:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Above
+        Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-27T05:30:00Z","maxPrice":60.0,"maxSeatsTogether":10.0,"meta_description":"Above
         And Beyond Surrender Nightclub at Encore Tickets - Buy and sell Above And
         Beyond Las Vegas Tickets for May 26 at Surrender Nightclub at Encore in Las
-        Vegas, NV on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Surrender
+        Vegas, NV on StubHub!","minPrice":50.0,"minSeatsTogether":1.0,"name_primary":"Surrender
         Nightclub at Encore","name_secondary":"Above And Beyond","nickname":"concerts","seo_description":"Above
         And Beyond at Surrender Nightclub at Encore","seo_title":"Above And Beyond
         Surrender Nightclub at Encore Las Vegas Tickets - 2013-5-26","spark_event_flag":"0","state":"NV","threeLevelsUpIds":"494083
         63910 1","title":"Above And Beyond Las Vegas Tickets - Above And Beyond 05/26/2013
-        Surrender Nightclub at Encore Tickets on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"above-and-beyond-las-vegas-surrender-nightclub-at-encore-26-5-2013-4262936","urlpathid":"2311009","venue_config_id":"594992","venue_name":"Surrender
+        Surrender Nightclub at Encore Tickets on StubHub!","totalPostings":2,"totalTickets":11.0,"type_id":"0","urlpath":"above-and-beyond-las-vegas-surrender-nightclub-at-encore-26-5-2013-4262936","urlpathid":"2311009","venue_config_id":"594992","venue_name":"Surrender
         Nightclub at Encore","venue_name_text":"Surrender Nightclub at Encore","venueconfigurationid":"594992","zip":"89109","zoneDescriptions":"|General
         Admission - Female |General Admission - Male","zoneIds":"83049 83050","artistPrimaryStyle":"195489","is_event_package":"0","date_added":"2013-03-28T20:54:55Z","event_status_id":2,"timezone":"PST","timezone_id":"5","venue_config_name":"Male
-        and Female General Admission","updateInitiatedTimestamp":"2013-04-01T20:00:34.336Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        and Female General Admission","updateInitiatedTimestamp":"2013-05-22T22:30:03.776Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
         And Beyond, , Above And Beyond Surrender Nightclub at Encore, Above And Beyond
         Las Vegas,Above And Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4262936,","seo_title_en_US":"Above
         And Beyond Surrender Nightclub at Encore Las Vegas Tickets - 2013-5-26","seo_description_en_US":"Above
@@ -222,29 +179,30 @@ http_interactions:
         And Beyond Surrender Nightclub at Encore Tickets - Buy and sell Above And
         Beyond Las Vegas Tickets for May 26 at Surrender Nightclub at Encore in Las
         Vegas, NV on StubHub!","event_description_en_US":"Above And Beyond Tickets
-        (21+ Event)","jdk_timezone":"US/Pacific","ptv_integrated_event_ind":0,"venueDetailUrlPath":"surrender-nightclub-at-encore","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":0.0,"dateLastIndexed":"2013-04-01T20:01:57.645Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        (21+ Event)","jdk_timezone":"US/Pacific","ptv_integrated_event_ind":0,"venueDetailUrlPath":"surrender-nightclub-at-encore","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":50.0,"dateLastIndexed":"2013-05-22T22:30:14.805Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
         Geography","United States","Nevada","Las Vegas","Surrender Nightclub at Encore"],"ancestorGenreDescriptions":["All
         tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4258863","stubhubDocumentType":"event","event_id":"4258863","act_primary":"Above
         and Beyond","id":"4258863","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
         1 63910 494083","ancestorGeoIds":"0 196976 673 674 180347","channel":"Concert
         tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:17:03Z","date_inhand":"2013-03-19T17:17:03Z","date_last_modified":"2013-03-19T17:17:05Z","date_onsale":"2013-03-19T17:17:03Z","description":"Above
+        tickets|1","city":"Boston","date_confirm":"2013-03-18T17:17:03Z","date_inhand":"2013-03-19T17:17:03Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2013-03-19T17:17:03Z","description":"Above
         and Beyond Tickets (21+ Event)","desc_sort":"Above and Beyond Tickets (21+
         Event)","eventDate_facet_str":"May, 2013|2013-05","eventGenreParentDescription_facet_str":"Above
         and Beyond Tickets|494083","eventGeoDescription":"Royale Boston","eventGeoDescription_text":"Royale
-        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-23T02:00:00Z","event_date_local":"2013-05-22","event_date_time_local":"2013-05-22T22:00:00Z","event_time_local":"22:00:00","event_type":"4258863,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        Boston","eventLocation_facet_str":"Massachusetts, Boston|674","event_date":"2013-05-23T02:00:00Z","event_date_local":"2013-05-22","event_date_time_local":"2013-05-22T22:00:00Z","event_time_local":"22:00:00","event_type":"4258863,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,,Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
         A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"","geoUrlPath":"royale-boston-tickets","geography_parent":"180347","hide_event_date":"0","image_url":"stubhub_463220_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
         and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
-        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-23T02:00:00Z","maxPrice":200.0,"maxSeatsTogether":8.0,"meta_description":"Above
+        and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-05-23T02:00:00Z","maxPrice":120.0,"maxSeatsTogether":6.0,"meta_description":"Above
         and Beyond Royale Boston Tickets - Buy and sell Above and Beyond Boston Tickets
-        for May 22 at Royale Boston in Boston, MA on StubHub!","minPrice":80.0,"minSeatsTogether":1.0,"name_primary":"Royale
+        for May 22 at Royale Boston in Boston, MA on StubHub!","minPrice":60.0,"minSeatsTogether":1.0,"name_primary":"Royale
         Boston","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
         and Beyond at Royale Boston","seo_title":"Above and Beyond Royale Boston Boston
         Tickets - 2013-5-22","spark_event_flag":"0","state":"MA","threeLevelsUpIds":"494083
         63910 1","title":"Above and Beyond Boston Tickets - Above and Beyond 05/22/2013
-        Royale Boston Tickets on StubHub!","totalPostings":18,"totalTickets":68.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-22-5-2013-4258863","urlpathid":"2306101","venue_config_id":"463220","venue_name":"Royale
+        Royale Boston Tickets on StubHub!","totalPostings":8,"totalTickets":16.0,"type_id":"0","urlpath":"above-and-beyond-boston-royale-boston-22-5-2013-4258863","urlpathid":"2306101","venue_config_id":"463220","venue_name":"Royale
         Boston","venue_name_text":"Royale Boston","venueconfigurationid":"463220","zip":"02116","artistPrimaryStyle":"195489","is_event_package":"0","latitude":42.349953,"longitude":-71.10707,"lat_lon":"42.349952,-71.10707","date_added":"2013-03-19T17:17:03Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"General
-        Admission","updateInitiatedTimestamp":"2013-04-01T20:00:34.332Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
+        Admission","updateInitiatedTimestamp":"2013-05-22T22:36:44.882Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
         and Beyond, , Above and Beyond Royale Boston, Above and Beyond Boston,Above
         and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4258863,","seo_title_en_US":"Above
         and Beyond Royale Boston Boston Tickets - 2013-5-22","seo_description_en_US":"Above
@@ -254,225 +212,173 @@ http_interactions:
         on StubHub!","meta_description_en_US":"Above and Beyond Royale Boston Tickets
         - Buy and sell Above and Beyond Boston Tickets for May 22 at Royale Boston
         in Boston, MA on StubHub!","event_description_en_US":"Above and Beyond Tickets
-        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":80.0,"dateLastIndexed":"2013-04-01T20:02:30.161Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"royale-boston","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":60.0,"dateLastIndexed":"2013-05-22T22:36:45.194Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
         Geography","United States","Massachusetts","Boston","Royale Boston"],"ancestorGenreDescriptions":["All
-        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4242261","stubhubDocumentType":"event","event_id":"4242261","act_primary":"Above
-        and Beyond","id":"4242261","active":"0","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"0","ancestorGenreIds":"0
-        1 63910 494083","ancestorGeoIds":"0 196976 724 78083 7133","channel":"Concert
+        tickets","Concert tickets","Artists A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4264766","stubhubDocumentType":"event","event_id":"4264766","act_primary":"Veld
+        Music Festival","id":"4264766","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63914 722049","ancestorGeoIds":"0 197077 5868 5869 7043","channel":"Concert
         tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Atlantic City","date_confirm":"2013-02-13T19:51:03Z","date_inhand":"2013-02-14T19:51:03Z","date_last_modified":"2013-03-16T03:03:20Z","date_onsale":"2013-02-14T19:51:03Z","description":"Above
-        and Beyond Tickets (21+ Event)","desc_sort":"Above and Beyond Tickets (21+
-        Event)","eventDate_facet_str":"March, 2013|2013-03","eventGenreParentDescription_facet_str":"Above
-        and Beyond Tickets|494083","eventGeoDescription":"Borgata Hotel Casino - Mixx","eventGeoDescription_text":"Borgata
-        Hotel Casino - Mixx","eventLocation_facet_str":"New Jersey, Atlantic City|78083","event_date":"2013-03-16T02:00:00Z","event_date_local":"2013-03-15","event_date_time_local":"2013-03-15T22:00:00Z","event_time_local":"22:00:00","event_type":"4242261,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"above-and-beyond-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
-        A - C","genre_parent":"494083","genre_parent_name":"Above and Beyond Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"the-borgata-hotel-and-casino-event-tickets","geography_parent":"7133","hide_event_date":"0","image_url":"stubhub_8317_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Above
-        and Beyond, , Above and Beyond Borgata Hotel Casino - Mixx, Above and Beyond
-        Atlantic City,Above and Beyond Concert, buy, sell, ticket, tickets","last_chance":"2013-03-16T02:00:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Above
-        and Beyond Borgata Hotel Casino - Mixx Tickets - Buy and sell Above and Beyond
-        Atlantic City Tickets for March 15 at Borgata Hotel Casino - Mixx in Atlantic
-        City, NJ on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Borgata
-        Hotel Casino - Mixx","name_secondary":"Above and Beyond","nickname":"concerts","seo_description":"Above
-        and Beyond at Borgata Hotel Casino - Mixx","seo_title":"Above and Beyond Borgata
-        Hotel Casino - Mixx Atlantic City Tickets - 2013-3-15","spark_event_flag":"1","state":"NJ","threeLevelsUpIds":"494083
-        63910 1","title":"Above and Beyond Atlantic City Tickets - Above and Beyond
-        03/15/2013 Borgata Hotel Casino - Mixx Tickets on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"above-and-beyond-atlantic-city-borgata-hotel-casino---mixx-15-3-2013-4242261","urlpathid":"2289037","venue_config_id":"8317","venue_name":"Borgata
-        Hotel Casino - Mixx","venue_name_text":"Borgata Hotel Casino - Mixx","venueconfigurationid":"8317","zip":"08401","artistPrimaryStyle":"195489","is_event_package":"0","latitude":39.376778,"longitude":-74.43536,"lat_lon":"39.3767765,-74.43536","date_added":"2013-02-14T19:51:03Z","event_status_id":5,"timezone":"EST","timezone_id":"2","venue_config_name":"GA","updateInitiatedTimestamp":"2013-04-01T20:00:34.334Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Above
-        and Beyond, , Above and Beyond Borgata Hotel Casino - Mixx, Above and Beyond
-        Atlantic City,Above and Beyond Concert, buy, sell, ticket, tickets","event_type_en_US":"4242261,","seo_title_en_US":"Above
-        and Beyond Borgata Hotel Casino - Mixx Atlantic City Tickets - 2013-3-15","seo_description_en_US":"Above
-        and Beyond at Borgata Hotel Casino - Mixx","name_primary_en_US":"Borgata Hotel
-        Casino - Mixx","name_secondary_en_US":"Above and Beyond","act_primary_en_US":"Above
-        and Beyond","title_en_US":"Above and Beyond Atlantic City Tickets - Above
-        and Beyond 03/15/2013 Borgata Hotel Casino - Mixx Tickets on StubHub!","meta_description_en_US":"Above
-        and Beyond Borgata Hotel Casino - Mixx Tickets - Buy and sell Above and Beyond
-        Atlantic City Tickets for March 15 at Borgata Hotel Casino - Mixx in Atlantic
-        City, NJ on StubHub!","event_description_en_US":"Above and Beyond Tickets
-        (21+ Event)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"the-borgata-hotel-and-casino","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":0.0,"dateLastIndexed":"2013-04-01T20:02:47.352Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
-        Geography","United States","New Jersey","Atlantic City","Borgata Hotel Casino
-        - Mixx"],"ancestorGenreDescriptions":["All tickets","Concert tickets","Artists
-        A - C","Above and Beyond Tickets"]},{"stubhubDocumentId":"event-4158158","stubhubDocumentType":"event","event_id":"4158158","act_primary":"Ultra
-        Music Festival Combined Weekends","id":"4158158","active":"0","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"0","ancestorGenreIds":"0
-        1 63914 51405","ancestorGeoIds":"0 196976 403 669 213429","channel":"Concert
+        tickets|1","city":"Toronto","date_confirm":"2013-04-02T20:54:55Z","date_inhand":"2013-04-03T20:54:55Z","date_last_modified":"2013-04-27T17:41:10Z","date_onsale":"2013-04-03T20:54:55Z","description":"Veld
+        Music Festival with Above and Beyond, Kaskade, Steve Aoki, Laidback Luke,
+        Dirty South, Deadmau5, Dada Life, Thomas Gold, Adventure Club and more 2 Day
+        Tickets (August 3-4)","desc_sort":"Veld Music Festival with Above and Beyond,
+        Kaskade, Steve Aoki, Laidback Luke, Dirty South, Deadmau5, Dada Life, Thomas
+        Gold, Adventure Club and more 2 Day Tickets (August 3-4)","eventDate_facet_str":"August,
+        2013|2013-08","eventGenreParentDescription_facet_str":"Veld Music Festival
+        Tickets|722049","eventGeoDescription":"Downsview Park","eventGeoDescription_text":"Downsview
+        Park","eventLocation_facet_str":"Ontario, Toronto|5869","event_date":"2013-08-03T17:00:00Z","event_date_local":"2013-08-03","event_date_time_local":"2013-08-03T13:00:00Z","event_time_local":"13:00:00","event_type":"4264766,","evt_segmentation_id":"0","genreDateDesc":"Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"veld-music-festival-tickets","genre_grand_parent_id":"63914","genre_grand_parent_name":"Artists
+        T - Z","genre_parent":"722049","genre_parent_name":"Veld Music Festival Tickets","geoEventTypes":"other-venues","geoUrlPath":"parc-downsview-park-event-tickets","geography_parent":"7043","hide_event_date":"1","image_url":"stubhub_8231_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Veld
+        Music Festival, , Veld Music Festival Downsview Park, Veld Music Festival
+        Toronto,Veld Music Festival Concert, buy, sell, ticket, tickets","last_chance":"2013-08-03T17:00:00Z","maxPrice":500.0,"maxSeatsTogether":8.0,"meta_description":"Veld
+        Music Festival Downsview Park Tickets - Buy and sell Veld Music Festival Toronto
+        Tickets for August 3 at Downsview Park in Toronto, ON on StubHub!","minPrice":195.0,"minSeatsTogether":1.0,"name_primary":"Downsview
+        Park","name_secondary":"Veld Music Festival","nickname":"","seo_description":"Veld
+        Music Festival at Downsview Park","seo_title":"Veld Music Festival Downsview
+        Park Toronto Tickets - 2013-8-3","spark_event_flag":"0","state":"ON","threeLevelsUpIds":"722049
+        63914 1","title":"Veld Music Festival Toronto Tickets - Veld Music Festival
+        08/03/2013 Downsview Park Tickets on StubHub!","totalPostings":36,"totalTickets":70.0,"type_id":"0","urlpath":"veld-music-festival-toronto-downsview-park-3-8-2013-4264766","urlpathid":"2312603","venue_config_id":"8231","venue_name":"Downsview
+        Park","venue_name_text":"Downsview Park","venueconfigurationid":"8231","zip":"M3K
+        2B6 ","artistPrimaryStyle":"195489","is_event_package":"0","latitude":43.756943,"longitude":-79.47889,"lat_lon":"43.7569444,-79.47889","date_added":"2013-04-03T20:54:55Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"GA","updateInitiatedTimestamp":"2013-05-22T20:00:36.911Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Veld
+        Music Festival, , Veld Music Festival Downsview Park, Veld Music Festival
+        Toronto,Veld Music Festival Concert, buy, sell, ticket, tickets","event_type_en_US":"4264766,","seo_title_en_US":"Veld
+        Music Festival Downsview Park Toronto Tickets - 2013-8-3","seo_description_en_US":"Veld
+        Music Festival at Downsview Park","name_primary_en_US":"Downsview Park","name_secondary_en_US":"Veld
+        Music Festival","act_primary_en_US":"Veld Music Festival","title_en_US":"Veld
+        Music Festival Toronto Tickets - Veld Music Festival 08/03/2013 Downsview
+        Park Tickets on StubHub!","meta_description_en_US":"Veld Music Festival Downsview
+        Park Tickets - Buy and sell Veld Music Festival Toronto Tickets for August
+        3 at Downsview Park in Toronto, ON on StubHub!","event_description_en_US":"Veld
+        Music Festival with Above and Beyond, Kaskade, Steve Aoki, Laidback Luke,
+        Dirty South, Deadmau5, Dada Life, Thomas Gold, Adventure Club and more 2 Day
+        Tickets (August 3-4)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"parc-downsview-park","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":1,"minListPrice":195.0,"dateLastIndexed":"2013-05-22T20:02:36.135Z","genreStartingAlphabet":["v"],"allowedViewingDomain":["stubhub.com"],"accompanyingAct":["402269","403763","494083","496052","496057","514940","707229","712260","723925"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","Canada","Ontario","Toronto","Downsview Park"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists T - Z","Veld Music Festival Tickets"]},{"stubhubDocumentId":"event-4272865","stubhubDocumentType":"event","event_id":"4272865","act_primary":"Governors
+        Ball After Party with Death From Above 1979","id":"4272865","active":"0","cancelled":"1","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63911 513438","ancestorGeoIds":"0 196976 561 664 8603","channel":"Concert
         tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Miami","date_confirm":"2012-10-16T17:45:20Z","date_inhand":"2013-02-15T18:45:20Z","date_last_modified":"2013-03-16T19:49:29Z","date_onsale":"2012-10-17T17:45:20Z","description":"Ultra
-        Music Festival - Combined Weekends - featuring Swedish House Mafia, Deadmau5,
-        Above and Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto,
-        Kaskade, and more Tickets","desc_sort":"Ultra Music Festival - Combined Weekends
-        - featuring Swedish House Mafia, Deadmau5, Above and Beyond, Armin Van Buuren,
-        Afrojack, Carl Cox, Fatboy Slim, Tiesto, Kaskade, and more Tickets","eventDate_facet_str":"March,
-        2013|2013-03","eventGenreParentDescription_facet_str":"Ultra Music Festival
-        Tickets|51405","eventGeoDescription":"Bayfront Park Miami","eventGeoDescription_text":"Bayfront
-        Park Miami","eventLocation_facet_str":"Florida, Miami / S. Florida|669","event_date":"2013-03-16T19:00:00Z","event_date_local":"2013-03-16","event_date_time_local":"2013-03-16T15:00:00Z","event_time_local":"15:00:00","event_type":"4158158,
-        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"ultra-music-festival-tickets","genre_grand_parent_id":"63914","genre_grand_parent_name":"Artists
-        T - Z","genre_parent":"51405","genre_parent_name":"Ultra Music Festival Tickets","geoEventTypes":"outdoor-venues","geoUrlPath":"bayfront-park-miami-tickets","geography_parent":"213429","hide_event_date":"1","image_url":"stubhub_596906_BayfrontPark_3DayTextOnly.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Ultra
-        Music Festival Combined Weekends, , Ultra Music Festival Combined Weekends
-        Bayfront Park Miami, Ultra Music Festival Combined Weekends Miami,Ultra Music
-        Festival Combined Weekends Concert, buy, sell, ticket, tickets","last_chance":"2013-03-16T19:00:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Ultra
-        Music Festival Combined Weekends Bayfront Park Miami Tickets - Buy and sell
-        Ultra Music Festival Combined Weekends Miami Tickets for 16 March at Bayfront
-        Park Miami in Miami on StubHub UK!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Bayfront
-        Park Miami","name_secondary":"Ultra Music Festival Combined Weekends","nickname":"concerts","seo_description":"Ultra
-        Music Festival Combined Weekends at Bayfront Park Miami","seo_title":"Ultra
-        Music Festival Combined Weekends Bayfront Park Miami Miami Tickets - 16/3/2013","spark_event_flag":"0","state":"FL","threeLevelsUpIds":"51405
-        63914 1","title":"Ultra Music Festival Combined Weekends Miami Tickets - Ultra
-        Music Festival Combined Weekends Bayfront Park Miami 16/3/2013 on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"ultra-music-festival-combined-weekends-miami-bayfront-park-miami-16-3-2013-4158158","urlpathid":"2199667","venue_config_id":"596906","venue_name":"Bayfront
-        Park Miami","venue_name_text":"Bayfront Park Miami","venueconfigurationid":"596906","zip":"33132","zoneDescriptions":"|GA
-        |VIP GA","zoneIds":"86597 86596","artistPrimaryStyle":"195489","is_event_package":"0","date_added":"2012-10-17T17:45:19Z","event_status_id":5,"timezone":"EST","timezone_id":"2","venue_config_name":"Ultra
-        Music Festival Weekend - Scrubbing","updateInitiatedTimestamp":"2013-04-01T20:00:18.903Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","venue_configuration_version":"2","keywords_en_US":"Ultra
-        Music Festival Combined Weekends, , Ultra Music Festival Combined Weekends
-        Bayfront Park Miami, Ultra Music Festival Combined Weekends Miami,Ultra Music
-        Festival Combined Weekends Concert, buy, sell, ticket, tickets","event_type_en_US":"4158158,","seo_title_en_US":"Ultra
-        Music Festival Combined Weekends Bayfront Park Miami Miami Tickets - 2013-3-16","seo_description_en_US":"Ultra
-        Music Festival Combined Weekends at Bayfront Park Miami","name_primary_en_US":"Bayfront
-        Park Miami","name_secondary_en_US":"Ultra Music Festival Combined Weekends","act_primary_en_US":"Ultra
-        Music Festival Combined Weekends","title_en_US":"Ultra Music Festival Combined
-        Weekends Miami Tickets - Ultra Music Festival Combined Weekends 03/16/2013
-        Bayfront Park Miami Tickets on StubHub!","meta_description_en_US":"Ultra Music
-        Festival Combined Weekends Bayfront Park Miami Tickets - Buy and sell Ultra
-        Music Festival Combined Weekends Miami Tickets for March 16 at Bayfront Park
-        Miami in Miami, FL on StubHub!","event_description_en_US":"Ultra Music Festival
-        - Combined Weekends - featuring Swedish House Mafia, Deadmau5, Above and Beyond,
-        Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto, Kaskade, and more
-        Tickets","keywords_en_GB":"Ultra Music Festival Combined Weekends, , Ultra
-        Music Festival Combined Weekends Bayfront Park Miami, Ultra Music Festival
-        Combined Weekends Miami,Ultra Music Festival Combined Weekends Concert, buy,
-        sell, ticket, tickets","event_type_en_GB":"4158158, ","seo_title_en_GB":"Ultra
-        Music Festival Combined Weekends Bayfront Park Miami Miami Tickets - 16/3/2013","seo_description_en_GB":"Ultra
-        Music Festival Combined Weekends at Bayfront Park Miami","name_primary_en_GB":"Bayfront
-        Park Miami","name_secondary_en_GB":"Ultra Music Festival Combined Weekends","act_primary_en_GB":"Ultra
-        Music Festival Combined Weekends","title_en_GB":"Ultra Music Festival Combined
-        Weekends Miami Tickets  - Ultra Music Festival Combined Weekends  Bayfront
-        Park Miami 16/3/2013 on StubHub!","meta_description_en_GB":"Ultra Music Festival
-        Combined Weekends Bayfront Park Miami Tickets - Buy and sell Ultra Music Festival
-        Combined Weekends Miami Tickets for 16 March at Bayfront Park Miami in Miami
-        on StubHub UK!","event_description_en_GB":"Ultra Music Festival Combined Weekends
-        Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"bayfront-park-miami","access_control_method":0,"is_scrubbing_enabled":"1","view_from_section_ind":0,"bundled_type":"1","hide_event_time":1,"minListPrice":0.0,"dateLastIndexed":"2013-04-01T20:00:59.605Z","genreStartingAlphabet":["u"],"allowedViewingDomain":["stubhub.com","stubhub.co.uk"],"accompanyingAct":["116417","124822","127521","369988","381990","402269","403763","403765","405075","426148","480448","488046","488217","489235","493289","494083","495701","496920","501171","534177","565968","572969","66912","705975","714487","723303","724802"],"locale":["en_US","en_GB"],"ancestorGeoDescriptions":["By
-        Geography","United States","Florida","Miami / S. Florida","Bayfront Park Miami"],"artistSecondaryStyle":["195489","195743"],"ancestorGenreDescriptions":["All
-        tickets","Concert tickets","Artists T - Z","Ultra Music Festival Tickets"]},{"stubhubDocumentId":"event-4157795","stubhubDocumentType":"event","event_id":"4157795","act_primary":"Ultra
-        Music Festival 3 Day Pass - Weekend 1","id":"4157795","active":"0","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"0","ancestorGenreIds":"0
-        1 63914 51405","ancestorGeoIds":"0 196976 403 669 213429","channel":"Concert
-        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Miami","date_confirm":"2012-10-14T21:46:02Z","date_inhand":"2013-02-15T22:46:02Z","date_last_modified":"2013-03-16T19:49:24Z","date_onsale":"2012-10-15T21:46:02Z","description":"Ultra
-        Music Festival 3-Day Pass - Weekend 1 - featuring Swedish House Mafia, Deadmau5,
-        Above and Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto,
-        Kaskade, and more Tickets (March 15-17)","desc_sort":"Ultra Music Festival
-        3-Day Pass - Weekend 1 - featuring Swedish House Mafia, Deadmau5, Above and
-        Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto, Kaskade,
-        and more Tickets (March 15-17)","eventDate_facet_str":"March, 2013|2013-03","eventGenreParentDescription_facet_str":"Ultra
-        Music Festival Tickets|51405","eventGeoDescription":"Bayfront Park Miami","eventGeoDescription_text":"Bayfront
-        Park Miami","eventLocation_facet_str":"Florida, Miami / S. Florida|669","event_date":"2013-03-16T19:00:00Z","event_date_local":"2013-03-16","event_date_time_local":"2013-03-16T15:00:00Z","event_time_local":"15:00:00","event_type":"4157795,
-        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"ultra-music-festival-tickets","genre_grand_parent_id":"63914","genre_grand_parent_name":"Artists
-        T - Z","genre_parent":"51405","genre_parent_name":"Ultra Music Festival Tickets","geoEventTypes":"outdoor-venues","geoUrlPath":"bayfront-park-miami-tickets","geography_parent":"213429","hide_event_date":"1","image_url":"stubhub_596906_BayfrontPark_3DayTextOnly.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Ultra
-        Music Festival 3 Day Pass - Weekend 1, , Ultra Music Festival 3 Day Pass -
-        Weekend 1 Bayfront Park Miami, Ultra Music Festival 3 Day Pass - Weekend 1
-        Miami,Ultra Music Festival 3 Day Pass - Weekend 1 Concert, buy, sell, ticket,
-        tickets","last_chance":"2013-03-16T19:00:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Bayfront Park Miami Tickets - Buy and
-        sell Ultra Music Festival 3 Day Pass - Weekend 1 Miami Tickets for 16 March
-        at Bayfront Park Miami in Miami on StubHub UK!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Bayfront
-        Park Miami","name_secondary":"Ultra Music Festival 3 Day Pass - Weekend 1","nickname":"concerts","seo_description":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 at Bayfront Park Miami","seo_title":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Bayfront Park Miami Miami Tickets -
-        16/3/2013","spark_event_flag":"1","state":"FL","threeLevelsUpIds":"51405 63914
-        1","title":"Ultra Music Festival 3 Day Pass - Weekend 1 Miami Tickets - Ultra
-        Music Festival 3 Day Pass - Weekend 1 Bayfront Park Miami 16/3/2013 on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"ultra-music-festival-3-day-pass---weekend-1-miami-bayfront-park-miami-16-3-2013-4157795","urlpathid":"2199091","venue_config_id":"596906","venue_name":"Bayfront
-        Park Miami","venue_name_text":"Bayfront Park Miami","venueconfigurationid":"596906","zip":"33132","zoneDescriptions":"|GA
-        |VIP GA","zoneIds":"86597 86596","artistPrimaryStyle":"195489","is_event_package":"0","date_added":"2012-10-15T21:46:02Z","event_status_id":5,"timezone":"EST","timezone_id":"2","venue_config_name":"Ultra
-        Music Festival Weekend - Scrubbing","updateInitiatedTimestamp":"2013-04-01T20:00:18.923Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","venue_configuration_version":"2","keywords_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 1, , Ultra Music Festival 3 Day Pass -
-        Weekend 1 Bayfront Park Miami, Ultra Music Festival 3 Day Pass - Weekend 1
-        Miami,Ultra Music Festival 3 Day Pass - Weekend 1 Concert, buy, sell, ticket,
-        tickets","event_type_en_US":"4157795,","seo_title_en_US":"Ultra Music Festival
-        3 Day Pass - Weekend 1 Bayfront Park Miami Miami Tickets - 2013-3-16","seo_description_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 at Bayfront Park Miami","name_primary_en_US":"Bayfront
-        Park Miami","name_secondary_en_US":"Ultra Music Festival 3 Day Pass - Weekend
-        1","act_primary_en_US":"Ultra Music Festival 3 Day Pass - Weekend 1","title_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Miami Tickets - Ultra Music Festival
-        3 Day Pass - Weekend 1 03/16/2013 Bayfront Park Miami Tickets on StubHub!","meta_description_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Bayfront Park Miami Tickets - Buy and
-        sell Ultra Music Festival 3 Day Pass - Weekend 1 Miami Tickets for March 16
-        at Bayfront Park Miami in Miami, FL on StubHub!","event_description_en_US":"Ultra
-        Music Festival 3-Day Pass - Weekend 1 - featuring Swedish House Mafia, Deadmau5,
-        Above and Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto,
-        Kaskade, and more Tickets (March 15-17)","keywords_en_GB":"Ultra Music Festival
-        3 Day Pass - Weekend 1, , Ultra Music Festival 3 Day Pass - Weekend 1 Bayfront
-        Park Miami, Ultra Music Festival 3 Day Pass - Weekend 1 Miami,Ultra Music
-        Festival 3 Day Pass - Weekend 1 Concert, buy, sell, ticket, tickets","event_type_en_GB":"4157795,
-        ","seo_title_en_GB":"Ultra Music Festival 3 Day Pass - Weekend 1 Bayfront
-        Park Miami Miami Tickets - 16/3/2013","seo_description_en_GB":"Ultra Music
-        Festival 3 Day Pass - Weekend 1 at Bayfront Park Miami","name_primary_en_GB":"Bayfront
-        Park Miami","name_secondary_en_GB":"Ultra Music Festival 3 Day Pass - Weekend
-        1","act_primary_en_GB":"Ultra Music Festival 3 Day Pass - Weekend 1","title_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Miami Tickets  - Ultra Music Festival
-        3 Day Pass - Weekend 1  Bayfront Park Miami 16/3/2013 on StubHub!","meta_description_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Bayfront Park Miami Tickets - Buy and
-        sell Ultra Music Festival 3 Day Pass - Weekend 1 Miami Tickets for 16 March
-        at Bayfront Park Miami in Miami on StubHub UK!","event_description_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 1 Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"bayfront-park-miami","access_control_method":0,"is_scrubbing_enabled":"1","view_from_section_ind":0,"bundled_type":"1","hide_event_time":1,"minListPrice":0.0,"dateLastIndexed":"2013-04-01T20:00:58.972Z","genreStartingAlphabet":["u"],"allowedViewingDomain":["stubhub.com","stubhub.co.uk"],"accompanyingAct":["116417","124822","127521","369988","381990","402269","403763","403765","405075","426148","480448","488046","488217","489235","493289","494083","495701","496920","501171","534177","565968","572969","66912","705975","714487","723303","724802"],"locale":["en_US","en_GB"],"ancestorGeoDescriptions":["By
-        Geography","United States","Florida","Miami / S. Florida","Bayfront Park Miami"],"artistSecondaryStyle":["195489","195743"],"ancestorGenreDescriptions":["All
-        tickets","Concert tickets","Artists T - Z","Ultra Music Festival Tickets"]},{"stubhubDocumentId":"event-4155773","stubhubDocumentType":"event","event_id":"4155773","act_primary":"Ultra
-        Music Festival 3 Day Pass - Weekend 2","id":"4155773","active":"0","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"0","ancestorGenreIds":"0
-        1 63914 51405","ancestorGeoIds":"0 196976 403 669 213429","channel":"Concert
-        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
-        tickets|1","city":"Miami","date_confirm":"2012-10-10T19:14:44Z","date_inhand":"2013-03-15T19:00:00Z","date_last_modified":"2013-03-23T19:34:51Z","date_onsale":"2012-10-11T19:14:44Z","description":"Ultra
-        Music Festival 3-Day Pass - Weekend 2 - featuring Swedish House Mafia, Deadmau5,
-        Above and Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto,
-        Kaskade, and more Tickets (March 22-24)","desc_sort":"Ultra Music Festival
-        3-Day Pass - Weekend 2 - featuring Swedish House Mafia, Deadmau5, Above and
-        Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto, Kaskade,
-        and more Tickets (March 22-24)","eventDate_facet_str":"March, 2013|2013-03","eventGenreParentDescription_facet_str":"Ultra
-        Music Festival Tickets|51405","eventGeoDescription":"Bayfront Park Miami","eventGeoDescription_text":"Bayfront
-        Park Miami","eventLocation_facet_str":"Florida, Miami / S. Florida|669","event_date":"2013-03-23T19:00:00Z","event_date_local":"2013-03-23","event_date_time_local":"2013-03-23T15:00:00Z","event_time_local":"15:00:00","event_type":"4155773,","evt_segmentation_id":"0","genreDateDesc":"music-genre-dance-music-tickets,","genreUrlPath":"ultra-music-festival-tickets","genre_grand_parent_id":"63914","genre_grand_parent_name":"Artists
-        T - Z","genre_parent":"51405","genre_parent_name":"Ultra Music Festival Tickets","geoEventTypes":"outdoor-venues","geoUrlPath":"bayfront-park-miami-tickets","geography_parent":"213429","hide_event_date":"1","image_url":"stubhub_596906_BayfrontPark_3DayTextOnly.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Ultra
-        Music Festival 3 Day Pass - Weekend 2, , Ultra Music Festival 3 Day Pass -
-        Weekend 2 Bayfront Park Miami, Ultra Music Festival 3 Day Pass - Weekend 2
-        Miami,Ultra Music Festival 3 Day Pass - Weekend 2 Concert, buy, sell, ticket,
-        tickets, umf","last_chance":"2013-03-23T19:00:00Z","maxPrice":0.0,"maxSeatsTogether":0.0,"meta_description":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Bayfront Park Miami Tickets - Buy and
-        sell Ultra Music Festival 3 Day Pass - Weekend 2 Miami Tickets for March 22
-        at Bayfront Park Miami in Miami, FL on StubHub!","minPrice":0.0,"minSeatsTogether":0.0,"name_primary":"Bayfront
-        Park Miami","name_secondary":"Ultra Music Festival 3 Day Pass - Weekend 2","nickname":"concerts","seo_description":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 at Bayfront Park Miami","seo_title":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Bayfront Park Miami Miami Tickets -
-        2013-3-22","spark_event_flag":"1","state":"FL","threeLevelsUpIds":"51405 63914
-        1","title":"Ultra Music Festival 3 Day Pass - Weekend 2 Miami Tickets - Ultra
-        Music Festival 3 Day Pass - Weekend 2 03/22/2013 Bayfront Park Miami Tickets
-        on StubHub!","totalPostings":0,"totalTickets":0.0,"type_id":"0","urlpath":"ultra-music-festival-3-day-pass---weekend-2-miami-bayfront-park-miami-23-3-2013-4155773","urlpathid":"2197305","venue_config_id":"596906","venue_name":"Bayfront
-        Park Miami","venue_name_text":"Bayfront Park Miami","venueconfigurationid":"596906","zip":"33132","zoneDescriptions":"|GA
-        |VIP GA","zoneIds":"86597 86596","artistPrimaryStyle":"195489","is_event_package":"0","date_added":"2012-10-11T19:14:44Z","event_status_id":5,"timezone":"EST","timezone_id":"2","venue_config_name":"Ultra
-        Music Festival Weekend - Scrubbing","updateInitiatedTimestamp":"2013-04-01T20:00:18.926Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","venue_configuration_version":"2","keywords_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 2, , Ultra Music Festival 3 Day Pass -
-        Weekend 2 Bayfront Park Miami, Ultra Music Festival 3 Day Pass - Weekend 2
-        Miami,Ultra Music Festival 3 Day Pass - Weekend 2 Concert, buy, sell, ticket,
-        tickets","event_type_en_GB":"4155773, ","seo_title_en_GB":"Ultra Music Festival
-        3 Day Pass - Weekend 2 Bayfront Park Miami Miami Tickets - 22/3/2013","seo_description_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 at Bayfront Park Miami","name_primary_en_GB":"Bayfront
-        Park Miami","name_secondary_en_GB":"Ultra Music Festival 3 Day Pass - Weekend
-        2","act_primary_en_GB":"Ultra Music Festival 3 Day Pass - Weekend 2","title_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Miami Tickets  - Ultra Music Festival
-        3 Day Pass - Weekend 2  Bayfront Park Miami 22/3/2013 on StubHub!","meta_description_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Bayfront Park Miami Tickets - Buy and
-        sell Ultra Music Festival 3 Day Pass - Weekend 2 Miami Tickets for 22 March
-        at Bayfront Park Miami in Miami on StubHub UK!","event_description_en_GB":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Tickets","keywords_en_US":"Ultra Music
-        Festival 3 Day Pass - Weekend 2, , Ultra Music Festival 3 Day Pass - Weekend
-        2 Bayfront Park Miami, Ultra Music Festival 3 Day Pass - Weekend 2 Miami,Ultra
-        Music Festival 3 Day Pass - Weekend 2 Concert, buy, sell, ticket, tickets,
-        umf","event_type_en_US":"4155773,","seo_title_en_US":"Ultra Music Festival
-        3 Day Pass - Weekend 2 Bayfront Park Miami Miami Tickets - 2013-3-22","seo_description_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 at Bayfront Park Miami","name_primary_en_US":"Bayfront
-        Park Miami","name_secondary_en_US":"Ultra Music Festival 3 Day Pass - Weekend
-        2","act_primary_en_US":"Ultra Music Festival 3 Day Pass - Weekend 2","title_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Miami Tickets - Ultra Music Festival
-        3 Day Pass - Weekend 2 03/22/2013 Bayfront Park Miami Tickets on StubHub!","meta_description_en_US":"Ultra
-        Music Festival 3 Day Pass - Weekend 2 Bayfront Park Miami Tickets - Buy and
-        sell Ultra Music Festival 3 Day Pass - Weekend 2 Miami Tickets for March 22
-        at Bayfront Park Miami in Miami, FL on StubHub!","event_description_en_US":"Ultra
-        Music Festival 3-Day Pass - Weekend 2 - featuring Swedish House Mafia, Deadmau5,
-        Above and Beyond, Armin Van Buuren, Afrojack, Carl Cox, Fatboy Slim, Tiesto,
-        Kaskade, and more Tickets (March 22-24)","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"bayfront-park-miami","access_control_method":0,"is_scrubbing_enabled":"1","view_from_section_ind":0,"bundled_type":"1","hide_event_time":1,"minListPrice":0.0,"dateLastIndexed":"2013-04-01T20:01:00.684Z","genreStartingAlphabet":["u"],"allowedViewingDomain":["stubhub.com","stubhub.co.uk"],"accompanyingAct":["116417","124822","127521","369988","381990","402269","403763","403765","405075","426148","480448","488046","488217","489235","493289","494083","495701","496920","501171","534177","565968","572969","66912","705975","714487","723303","724802"],"locale":["en_GB","en_US"],"ancestorGeoDescriptions":["By
-        Geography","United States","Florida","Miami / S. Florida","Bayfront Park Miami"],"artistSecondaryStyle":["195489","195743"],"ancestorGenreDescriptions":["All
-        tickets","Concert tickets","Artists T - Z","Ultra Music Festival Tickets"]}]}}'
+        tickets|1","city":"New York","date_confirm":"2013-04-23T16:26:54Z","date_inhand":"2013-04-24T16:26:54Z","date_last_modified":"2013-05-08T22:28:43Z","date_onsale":"2013-04-24T16:26:54Z","description":"Governors
+        Ball After Party with Death From Above 1979 Tickets","desc_sort":"Governors
+        Ball After Party with Death From Above 1979 Tickets","eventDate_facet_str":"June,
+        2013|2013-06","eventGenreParentDescription_facet_str":"Death From Above 1979
+        Tickets|513438","eventGeoDescription":"Irving Plaza","eventGeoDescription_text":"Irving
+        Plaza","eventLocation_facet_str":"New York, New York Metro|664","event_date":"2013-06-08T03:00:00Z","event_date_local":"2013-06-07","event_date_time_local":"2013-06-07T23:00:00Z","event_time_local":"23:00:00","event_type":"4272865,
+        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-alternative-music-tickets,Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"death-from-above-1979-tickets","genre_grand_parent_id":"63911","genre_grand_parent_name":"Artists
+        D - G","genre_parent":"513438","genre_parent_name":"Death From Above 1979
+        Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"irving-plaza-event-tickets","geography_parent":"8603","hide_event_date":"0","image_url":"stubhub_9871_GA_generic.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"Governors
+        Ball After Party with Death From Above 1979, , Governors Ball After Party
+        with Death From Above 1979 Irving Plaza, Governors Ball After Party with Death
+        From Above 1979 New York,Governors Ball After Party with Death From Above
+        1979 Concert, buy, sell, ticket, tickets","last_chance":"2013-06-08T03:00:00Z","maxPrice":125.0,"maxSeatsTogether":8.0,"meta_description":"Governors
+        Ball After Party with Death From Above 1979 Irving Plaza Tickets - Buy and
+        sell Governors Ball After Party with Death From Above 1979 New York Tickets
+        for June 7 at Irving Plaza in New York, NY on StubHub!","minPrice":51.2,"minSeatsTogether":1.0,"name_primary":"Irving
+        Plaza","name_secondary":"Governors Ball After Party with Death From Above
+        1979","nickname":"concerts-c","seo_description":"Governors Ball After Party
+        with Death From Above 1979 at Irving Plaza","seo_title":"Governors Ball After
+        Party with Death From Above 1979 Irving Plaza New York Tickets - 2013-6-7","spark_event_flag":"0","state":"NY","threeLevelsUpIds":"513438
+        63911 1","title":"Governors Ball After Party with Death From Above 1979 New
+        York Tickets - Governors Ball After Party with Death From Above 1979 06/07/2013
+        Irving Plaza Tickets on StubHub!","totalPostings":11,"totalTickets":45.0,"type_id":"0","urlpath":"governors-ball-after-party-with-death-from-above-1979-new-york-irving-plaza-7-6-2013-4272865","urlpathid":"2321814","venue_config_id":"9871","venue_name":"Irving
+        Plaza","venue_name_text":"Irving Plaza","venueconfigurationid":"9871","zip":"10003","artistPrimaryStyle":"441193","is_event_package":"0","latitude":40.734917,"longitude":-73.98845,"lat_lon":"40.734917,-73.98845","date_added":"2013-04-24T16:26:54Z","event_status_id":4,"timezone":"EST","timezone_id":"2","venue_config_name":"General
+        Admission","updateInitiatedTimestamp":"2013-05-22T09:34:36.322Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"Governors
+        Ball After Party with Death From Above 1979, , Governors Ball After Party
+        with Death From Above 1979 Irving Plaza, Governors Ball After Party with Death
+        From Above 1979 New York,Governors Ball After Party with Death From Above
+        1979 Concert, buy, sell, ticket, tickets","event_type_en_US":"4272865, ","seo_title_en_US":"Governors
+        Ball After Party with Death From Above 1979 Irving Plaza New York Tickets
+        - 2013-6-7","seo_description_en_US":"Governors Ball After Party with Death
+        From Above 1979 at Irving Plaza","name_primary_en_US":"Irving Plaza","name_secondary_en_US":"Governors
+        Ball After Party with Death From Above 1979","act_primary_en_US":"Governors
+        Ball After Party with Death From Above 1979","title_en_US":"Governors Ball
+        After Party with Death From Above 1979 New York Tickets - Governors Ball After
+        Party with Death From Above 1979 06/07/2013 Irving Plaza Tickets on StubHub!","meta_description_en_US":"Governors
+        Ball After Party with Death From Above 1979 Irving Plaza Tickets - Buy and
+        sell Governors Ball After Party with Death From Above 1979 New York Tickets
+        for June 7 at Irving Plaza in New York, NY on StubHub!","event_description_en_US":"Governors
+        Ball After Party with Death From Above 1979 Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"irving-plaza","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":51.2,"dateLastIndexed":"2013-05-22T09:35:36.747Z","genreStartingAlphabet":["d"],"allowedViewingDomain":["stubhub.com"],"accompanyingAct":["497211"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","New York","New York Metro","Irving Plaza"],"artistSecondaryStyle":["195743","209736"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists D - G","Death From Above 1979 Tickets"]}]}}'
     http_version: 
-  recorded_at: Mon, 01 Apr 2013 23:34:37 GMT
+  recorded_at: Wed, 22 May 2013 22:39:00 GMT
+- request:
+    method: get
+    uri: http://www.stubhub.com/listingCatalog/select/?q=%2B%20stubhubDocumentType:event%0D%0A%2B%20event_id:4187540%0D%0A&rows=10&start=0&wt=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Content-Type:
+      - application/json;charset=UTF-8
+      Expires:
+      - Wed, 22 May 2013 22:39:01 GMT
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Pragma:
+      - no-cache
+      Date:
+      - Wed, 22 May 2013 22:39:01 GMT
+      Content-Length:
+      - '5514'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - TLTHID=66123BBAC33010C3664CF79B34C19A83; Path=/; Domain=.stubhub.com
+      - TLTSID=66123BBAC33010C3664CF79B34C19A83; Path=/; Domain=.stubhub.com
+      - dc=origin1;expires=Wed, 22-May-2013 23:09:01 GMT;path=/;domain=www.stubhub.com;
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseHeader":{"status":0,"QTime":0,"params":{"wt":"json","rows":"10","start":"0","q":"+
+        stubhubDocumentType:event\r\n+ event_id:4187540\r\n +allowedViewingDomain:stubhub.com"}},"response":{"numFound":1,"start":0,"docs":[{"stubhubDocumentId":"event-4187540","stubhubDocumentType":"event","event_id":"4187540","act_primary":"2013
+        AMT Christmas Show","id":"4187540","active":"1","cancelled":"0","allowedtoconfirm":"1","allowedtosell":"1","ancestorGenreIds":"0
+        1 63910 726864","ancestorGeoIds":"0 196976 521 522 63483","channel":"Concert
+        tickets","channelId":"1","channelUrlPath":"concert-tickets","channel_facet_str":"Concert
+        tickets|1","city":"Lancaster","date_confirm":"2012-12-06T17:55:16Z","date_inhand":"2012-12-07T19:30:16Z","date_last_modified":"2013-04-17T18:13:11Z","date_onsale":"2012-12-07T17:55:17Z","description":"2013
+        AMT Christmas Show: The First Noel Tickets","desc_sort":"2013 AMT Christmas
+        Show: The First Noel Tickets","eventDate_facet_str":"December, 2013|2013-12","eventGenreParentDescription_facet_str":"AMT
+        Christmas Show Tickets|726864","eventGeoDescription":"American Music Theatre
+        - Lancaster","eventGeoDescription_text":"American Music Theatre - Lancaster","eventLocation_facet_str":"Pennsylvania,
+        Philadelphia|522","event_date":"2013-12-07T00:30:00Z","event_date_local":"2013-12-06","event_date_time_local":"2013-12-06T19:30:00Z","event_time_local":"19:30:00","event_type":"4187540,
+        ","evt_segmentation_id":"0","genreDateDesc":"music-genre-alternative-music-tickets,Concert,
+        concert, gigs, tickets, tour, dates, biography","genreUrlPath":"amt-christmas-show-tickets","genre_grand_parent_id":"63910","genre_grand_parent_name":"Artists
+        A - C","genre_parent":"726864","genre_parent_name":"AMT Christmas Show Tickets","geoEventTypes":"clubs-bars-theater-venues","geoUrlPath":"american-music-theater-lancaster-tickets","geography_parent":"63483","hide_event_date":"0","image_url":"stubhub_73510_AmericanMusicTheater_Concert.png","is_eticket_allowed":"0","is_integrated_team":"N","keywords":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","last_chance":"2013-12-07T00:30:00Z","maxPrice":78.0,"maxSeatsTogether":6.0,"meta_description":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Tickets - Buy and sell
+        2013 AMT Christmas Show Lancaster Tickets for December 6 at American Music
+        Theatre - Lancaster in Lancaster, PA on StubHub!","minPrice":78.0,"minSeatsTogether":6.0,"name_primary":"American
+        Music Theatre - Lancaster","name_secondary":"2013 AMT Christmas Show","nickname":"family","seo_description":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","seo_title":"2013
+        AMT Christmas Show American Music Theatre - Lancaster Lancaster Tickets -
+        2013-12-6","spark_event_flag":"0","state":"PA","threeLevelsUpIds":"726864
+        63910 1","title":"2013 AMT Christmas Show Lancaster Tickets - 2013 AMT Christmas
+        Show 12/06/2013 American Music Theatre - Lancaster Tickets on StubHub!","totalPostings":1,"totalTickets":6.0,"type_id":"0","urlpath":"2013-amt-christmas-show-lancaster-american-music-theatre---lancaster-6-12-2013-4187540","urlpathid":"2230804","venue_config_id":"73510","venue_name":"American
+        Music Theatre - Lancaster","venue_name_text":"American Music Theatre - Lancaster","venueconfigurationid":"73510","zip":"17605","artistPrimaryStyle":"178738","is_event_package":"0","latitude":40.02485,"longitude":-76.200516,"lat_lon":"40.0248492,-76.200516","date_added":"2012-12-07T17:55:17Z","event_status_id":2,"timezone":"EST","timezone_id":"2","venue_config_name":"Theater","updateInitiatedTimestamp":"2013-05-22T08:57:53.385Z","book_of_business_id":1,"currency_code":"USD","event_config_template_id":"1","event_config_template":"Concert","keywords_en_US":"2013
+        AMT Christmas Show, , 2013 AMT Christmas Show American Music Theatre - Lancaster,
+        2013 AMT Christmas Show Lancaster,2013 AMT Christmas Show Concert, buy, sell,
+        ticket, tickets","event_type_en_US":"4187540, ","seo_title_en_US":"2013 AMT
+        Christmas Show American Music Theatre - Lancaster Lancaster Tickets - 2013-12-6","seo_description_en_US":"2013
+        AMT Christmas Show at American Music Theatre - Lancaster","name_primary_en_US":"American
+        Music Theatre - Lancaster","name_secondary_en_US":"2013 AMT Christmas Show","act_primary_en_US":"2013
+        AMT Christmas Show","title_en_US":"2013 AMT Christmas Show Lancaster Tickets
+        - 2013 AMT Christmas Show 12/06/2013 American Music Theatre - Lancaster Tickets
+        on StubHub!","meta_description_en_US":"2013 AMT Christmas Show American Music
+        Theatre - Lancaster Tickets - Buy and sell 2013 AMT Christmas Show Lancaster
+        Tickets for December 6 at American Music Theatre - Lancaster in Lancaster,
+        PA on StubHub!","event_description_en_US":"2013 AMT Christmas Show: The First
+        Noel Tickets","jdk_timezone":"US/Eastern","ptv_integrated_event_ind":0,"venueDetailUrlPath":"american-music-theater-lancaster","access_control_method":0,"is_scrubbing_enabled":"0","view_from_section_ind":0,"bundled_type":"1","hide_event_time":0,"minListPrice":78.0,"dateLastIndexed":"2013-05-22T08:58:05.644Z","genreStartingAlphabet":["a"],"allowedViewingDomain":["stubhub.com"],"locale":["en_US"],"ancestorGeoDescriptions":["By
+        Geography","United States","Pennsylvania","Philadelphia","American Music Theatre
+        - Lancaster"],"artistSecondaryStyle":["195743"],"ancestorGenreDescriptions":["All
+        tickets","Concert tickets","Artists A - C","AMT Christmas Show Tickets"]}]}}'
+    http_version: 
+  recorded_at: Wed, 22 May 2013 22:39:01 GMT
 recorded_with: VCR 2.4.0

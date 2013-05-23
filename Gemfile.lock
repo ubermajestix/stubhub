@@ -1,18 +1,32 @@
 PATH
   remote: .
   specs:
-    stubhub (0.0.3)
+    stubhub (0.0.4)
+      activesupport
+      http (~> 0.4.0)
+      httparty (~> 0.11.0)
+      map (~> 6.5.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
     addressable (2.3.3)
+    certified (0.1.1)
     crack (0.3.2)
     diff-lcs (1.2.1)
-    httparty (0.10.2)
+    http (0.4.0)
+      certified
+      http_parser.rb
+    http_parser.rb (0.5.3)
+    httparty (0.11.0)
       multi_json (~> 1.0)
       multi_xml (>= 0.5.2)
-    multi_json (1.6.1)
+    i18n (0.6.1)
+    map (6.5.1)
+    multi_json (1.7.3)
     multi_xml (0.5.3)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
@@ -31,7 +45,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  httparty
   rspec
   stubhub!
   vcr
