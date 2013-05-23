@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   
-  gem.add_dependency 'httparty',  '~> 0.11.0'
-  gem.add_dependency 'http',      '~> 0.4.0'
-  gem.add_dependency 'map',       '~> 6.5.1'
+  gem.add_dependency 'httparty',  '~> 0.9.0'
+  gem.add_dependency 'http',      '~> 0.4.0' # TODO remove HTTParty
+  gem.add_dependency 'map'
   gem.add_dependency 'activesupport'
 
   gem.add_development_dependency 'rspec'
